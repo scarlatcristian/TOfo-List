@@ -7,5 +7,26 @@
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <h1>Todo List</h1>
+
+    <form id="form">
+      <input
+        type="text"
+        class="input"
+        id="input"
+        placeholder="Enter your todo"
+        autocomplete="off"
+      />
+      <ul class="todos" id="todos">
+        <li class="completed">My First Item</li>
+        <li>My Second Item</li>
+      </ul>
+    </form>
+
+    <small
+      >Left click to toggle completed. <br />
+      Right click to delete todo</small
+    >
+  </body>
 </html>
